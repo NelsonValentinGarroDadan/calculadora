@@ -1,5 +1,4 @@
 import './App.css';
-import FreecodeCampLogo from './imagenes/freecodecamp-logo.png';
 import Boton from './componentes/boton';
 import Pantalla from './componentes/pantalla';
 import BotonClear from './componentes/boton-clear';
@@ -13,7 +12,7 @@ function App() {
   var evaluacion ;
 
   const agregarInput = (n)=>{
-    if(input.toString() == 'Syntaxis Error' ){
+    if(input.toString() === 'Syntaxis Error' ){
       setInput(n);
     }else if(historial){
       setInput(n);

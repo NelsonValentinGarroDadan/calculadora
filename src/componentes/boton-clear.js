@@ -1,5 +1,5 @@
 import React from "react";
-import BotonClearCss from '../hojas-de-estilo/Botn-Clear.css'
+import '../hojas-de-estilo/Botn-Clear.css';
 
 const Clear = (props)=>{
     return(

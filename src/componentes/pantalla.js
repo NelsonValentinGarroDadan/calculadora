@@ -1,5 +1,5 @@
 import React from "react";
-import PantallaCss from '../hojas-de-estilo/Pantalla.css';
+import '../hojas-de-estilo/Pantalla.css';
 const Pantalla = ({input ,historial})=>{
     return(
         <div className="input">
